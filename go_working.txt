@@ -1,0 +1,13 @@
+Install godoc in windows:
+go get -v  golang.org/x/tools/cmd/godoc
+godoc -http=:6060
+
+in mac:
+sudo yum update
+sudo yum install golang
+sudo yum install golang-doc
+sudo yum install golang-go.tools
+
+
+Install plugin with pycharm:
+Preferences -> Plugins -> Browse Repositories -> Manage repositories and insert https://plugins.jetbrains.com/plugins/alpha/5047 which is the plugin behind this repo (maintained by IntelliJ). Install that plugin. After plugin is installed, create a .go file.

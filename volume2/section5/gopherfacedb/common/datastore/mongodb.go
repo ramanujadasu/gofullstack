@@ -1,7 +1,7 @@
 package datastore
 
 import (
-	"github.com/EngineerKamesh/gofullstack/volume2/section5/gopherfacedb/models"
+	"github.com/ramanujadasu/gofullstack/volume2/section5/gopherfacedb/models"
 
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"

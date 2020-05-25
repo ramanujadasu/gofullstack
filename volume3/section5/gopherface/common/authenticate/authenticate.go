@@ -4,9 +4,9 @@ import (
 	"log"
 	"strings"
 
-	"github.com/EngineerKamesh/gofullstack/volume3/section5/gopherface/common/utility"
+	"github.com/ramanujadasu/gofullstack/volume3/section5/gopherface/common/utility"
 
-	"github.com/EngineerKamesh/gofullstack/volume3/section5/gopherface/common"
+	"github.com/ramanujadasu/gofullstack/volume3/section5/gopherface/common"
 )
 
 func VerifyCredentials(e *common.Env, username string, password string) bool {

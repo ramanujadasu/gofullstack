@@ -3,7 +3,7 @@ package datastore
 import (
 	"errors"
 
-	"github.com/EngineerKamesh/gofullstack/volume2/section5/gopherfacedb/models"
+	"github.com/ramanujadasu/gofullstack/volume2/section5/gopherfacedb/models"
 )
 
 type Datastore interface {

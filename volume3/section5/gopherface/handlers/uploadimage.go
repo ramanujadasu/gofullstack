@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/EngineerKamesh/gofullstack/volume3/section5/gopherface/common/asyncq"
-	"github.com/EngineerKamesh/gofullstack/volume3/section5/gopherface/common/utility"
-	"github.com/EngineerKamesh/gofullstack/volume3/section5/gopherface/tasks"
+	"github.com/ramanujadasu/gofullstack/volume3/section5/gopherface/common/asyncq"
+	"github.com/ramanujadasu/gofullstack/volume3/section5/gopherface/common/utility"
+	"github.com/ramanujadasu/gofullstack/volume3/section5/gopherface/tasks"
 )
 
 type UploadImageForm struct {

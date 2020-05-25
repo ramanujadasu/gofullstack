@@ -1,11 +1,11 @@
-# Web Programming with Go by Kamesh Balasubramanian
+# Web Programming with Go by Ramanujadasu
 
 This is the official source code repository for the Web Programming with Go video series published by Packt. The video series teaches you how to develop full stack web applications using the Go programming language.
 
-<a href="https://www.packtpub.com/web-development/go-essentials-full-stack-web-development-video"><img border="0" src="https://raw.githubusercontent.com/EngineerKamesh/gofullstack/master/assets/V1goessentials_thumb.png" width=207 /></a>
-<a href="https://www.packtpub.com/web-development/back-end-web-development-using-go-video"><img border="0" src="https://raw.githubusercontent.com/EngineerKamesh/gofullstack/master/assets/V2backendgo_thumb.png" width=207 /></a>
-<a href="https://www.packtpub.com/web-development/front-end-web-development-using-go-video"><img border="0" src="https://raw.githubusercontent.com/EngineerKamesh/gofullstack/master/assets/V3frontendgo_thumb.png" width=207 /></a>
-<a href="https://www.packtpub.com/web-development/go-production-deployments-video"><img border="0" src="https://raw.githubusercontent.com/EngineerKamesh/gofullstack/master/assets/V4godeploy_thumb.png" width=207 /></a>
+<a href="https://www.packtpub.com/web-development/go-essentials-full-stack-web-development-video"><img border="0" src="https://raw.githubusercontent.com/ramanujadasu/gofullstack/master/assets/V1goessentials_thumb.png" width=207 /></a>
+<a href="https://www.packtpub.com/web-development/back-end-web-development-using-go-video"><img border="0" src="https://raw.githubusercontent.com/ramanujadasu/gofullstack/master/assets/V2backendgo_thumb.png" width=207 /></a>
+<a href="https://www.packtpub.com/web-development/front-end-web-development-using-go-video"><img border="0" src="https://raw.githubusercontent.com/ramanujadasu/gofullstack/master/assets/V3frontendgo_thumb.png" width=207 /></a>
+<a href="https://www.packtpub.com/web-development/go-production-deployments-video"><img border="0" src="https://raw.githubusercontent.com/ramanujadasu/gofullstack/master/assets/V4godeploy_thumb.png" width=207 /></a>
 
 ### Volume 1: Go Essentials for Full Stack Web Development
 

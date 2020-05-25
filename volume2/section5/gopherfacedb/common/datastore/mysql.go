@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/EngineerKamesh/gofullstack/volume2/section5/gopherfacedb/models"
+	"github.com/ramanujadasu/gofullstack/volume2/section5/gopherfacedb/models"
 
 	_ "github.com/go-sql-driver/mysql"
 )

@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 
-	"github.com/EngineerKamesh/gofullstack/volume2/section5/gopherfacedb/common"
-	"github.com/EngineerKamesh/gofullstack/volume2/section5/gopherfacedb/common/datastore"
-	"github.com/EngineerKamesh/gofullstack/volume2/section5/gopherfacedb/handlers"
-	"github.com/EngineerKamesh/gofullstack/volume2/section5/gopherfacedb/middleware"
+	"github.com/ramanujadasu/gofullstack/volume2/section5/gopherfacedb/common"
+	"github.com/ramanujadasu/gofullstack/volume2/section5/gopherfacedb/common/datastore"
+	"github.com/ramanujadasu/gofullstack/volume2/section5/gopherfacedb/handlers"
+	"github.com/ramanujadasu/gofullstack/volume2/section5/gopherfacedb/middleware"
 
 	"net/http"
 	"os"

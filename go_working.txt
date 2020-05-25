@@ -1,3 +1,6 @@
+Github URL:
+https://github.com/ramanujadasu/gofullstack.git
+
 Install godoc in windows:
 go get -v  golang.org/x/tools/cmd/godoc
 godoc -http=:6060
@@ -11,3 +14,44 @@ sudo yum install golang-go.tools
 
 Install plugin with pycharm:
 Preferences -> Plugins -> Browse Repositories -> Manage repositories and insert https://plugins.jetbrains.com/plugins/alpha/5047 which is the plugin behind this repo (maintained by IntelliJ). Install that plugin. After plugin is installed, create a .go file.
+
+Install:
+ go get -u github.com/gorilla/mux
+ go get -u github.com/gorilla/handlers
+ go get github.com/nfnt/resize
+ 
+Install docker and mysql container:
+docker pull mysql
+ 
+docker run -p3306: 3306 --name gopherfacemysql -e, in all capitals MYSQL_ROOT_PASSWORD= gopherface -d mysql. 
+
+docker ps
+
+
+docker run -it --link gopherfacemysql:mysql --rm mysql sh -c 'exec mysql -h"SMYSQL_PORT_3306_TCP_ADDR" -P"SMYSQL_PORT_3306_TCP_PORT" -uroot -p"gopherface"'
+
+mysql>
+
+CREATE USER 'gopherface'@'%' IDENTIFIED BY 'gopherface';
+
+CREATE DATABASE gopherfacedb DEFAULT CHARSET = utf8 COLLATE = utf8_unicode_ci;
+
+GRANT ALL PRIVILEGES ON gopherface.* TO 'gopherface'@'%';
+
+FLUSH PRIVILEGES
+
+USE gopherfacedb;
+
+copy files to docker container:
+docker cp gopherfacedb.sql blissful_edison:/tmp/.
+
+mysql> source /tmp/gopherfacedb.sql
+
+desc user;
+
+
+
+
+
+We are providing a database admin password of gopherface, the -p command line option indicates which port we want MySQL to run on in the Docker container.
+ 
